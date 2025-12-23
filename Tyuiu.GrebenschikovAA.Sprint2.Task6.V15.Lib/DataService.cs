@@ -9,13 +9,13 @@ namespace Tyuiu.GrebenschikovAA.Sprint2.Task6.V15.Lib
             int day = k % 7 == 0 ? 1 : k % 7;
             switch (day)
             {
-                case 1: return "понедельник";
-                case 2: return "вторник";
-                case 3: return "среда";
-                case 4: return "четверг";
-                case 5: return "пятница";
-                case 6: return "суббота";
-                case 7: return "воскресенье";
+                case 1: return "Понедельник";
+                case 2: return "Вторник";
+                case 3: return "Среда";
+                case 4: return "Четверг";
+                case 5: return "Пятница";
+                case 6: return "Суббота";
+                case 7: return "Воскресенье";
                 default: return "неизвестный номер дня";
             }
         }
