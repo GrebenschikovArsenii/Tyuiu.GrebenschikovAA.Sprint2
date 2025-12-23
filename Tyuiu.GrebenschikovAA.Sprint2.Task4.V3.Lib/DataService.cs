@@ -6,7 +6,7 @@ namespace Tyuiu.GrebenschikovAA.Sprint2.Task4.V3.Lib
     {
         public double Calculate(double x, double y)
         {
-            return x > (y - 1) ? (y + ((y - 1) / (x + 2))) : (x +  2*y * (1 / (y + 3)));
+            return x < (y - 1) ? (y + ((y - 1) / (x + 2))) : (x +  2*y * (1 / (y + 3)));
         }
     }
 }
